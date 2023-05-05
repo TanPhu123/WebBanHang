@@ -1,0 +1,131 @@
+
+	<div class="container-navi">
+		<nav >
+			<div class="logo">
+				
+			  <a href="#">
+				
+			</div>
+			<form>
+			  <div class="search-box">
+				<input type="text" placeholder="Tìm kiếm...">
+				<button type="submit"><i class="fas fa-search"></i></button>
+			  </div>
+			</form>
+			<ul class="nav-links">
+			  <li><a href="#"><i class="fas fa-shopping-cart"></i> Giỏ hàng</a></li>
+			  <li><a href="#"><i class="fas fa-file-invoice"></i> Tra cứu đơn hàng</a></li>
+			  <li><a href="#"><i class="fas fa-user "></i> Đăng nhập</a></li>
+			</ul>
+			<div class="menu-toggle">
+			  <i class="fas fa-bars"></i>
+			</div>
+		  </nav>
+	</div>
+
+
+
+css
+
+
+.container-navi{
+	padding-bottom: 50px;
+}
+nav {
+	background-color: #fff;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 50px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+  }
+  
+  /* nav .logo img {
+	width: 100%;
+	height: auto;
+	max-height: 50px;
+  } */
+  nav .logo h2{
+	font-size: large;
+	max-height: 50px;
+  }
+  
+  nav form {
+	margin: 0;
+  }
+  
+  nav .search-box {
+	display: flex;
+	align-items: center;
+	background-color: #f8f8f8;
+	border: none;
+	border-radius: 50px;
+	height: 40px;
+	padding: 0 20px;
+	width: 100%;
+	margin: auto;
+  }
+  
+  nav input[type="text"] {
+	border: none;
+	width: 100%;
+	height: 100%;
+	font-size: 16px;
+	padding: 0 10px;
+  }
+  
+  nav button[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	border: none;
+	border-radius: 50px;
+	font-size: 18px;
+	margin-left: 10px;
+	padding: 10px 15px;
+	cursor: pointer;
+  }
+  
+  nav button[type="submit"]:hover {
+	background-color: #000;
+  }
+  
+  nav .nav-links {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	align-items: center;
+  }
+  
+  nav .nav-links li {
+	margin: 0 10px;
+  }
+  
+  nav .nav-links a {
+	color: #333;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+  }
+  
+  nav .nav-links a:hover {
+	color: #000;
+  }
+  
+  nav .nav-links a i {
+	margin-right: 5px;
+	font-size: 18px;
+  }
+  
+  nav .menu-toggle {
+	display: none;
+	font-size: 24
+  }  
