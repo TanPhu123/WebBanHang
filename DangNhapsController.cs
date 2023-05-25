@@ -66,7 +66,7 @@ namespace WebDT.Areas.admin.Controllers
                 var userChart = new userChart();
                 TimeSpan time = DateTime.Now - item.buyLastDate.Value;
                 int Tongngay = time.Days;
-                int soDonHang = int.Parse(item.countOrder.ToString());
+                var soDonHang = int.Parse(item.countOrder.ToString());
                 float soTienMua = float.Parse(item.amountSpent.ToString());
                 userChart.Tongngay = Tongngay;
                 userChart.soDonHang = soDonHang;
